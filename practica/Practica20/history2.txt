@@ -1,0 +1,79 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  wget http://www.unirioja.es/cu/jearansa/1112/ficheros/historia
+    6  sed -n "1,8p" historia
+    7  sed -n "1,20p" historia >> fich
+    8  wc fich 
+    9  sed -p -n fich
+   10  sed -n p fich
+   11  sed -n "/España/p" fichero
+   12  sed -n "/España/p" fich
+   13  sed -n "/España/p" fich | wc
+   14  sed "5-10d" fich | wc
+   15  sed "5,10d" fich | wc
+   16  sed -n "/^$/d" fich | wc
+   17  sed "/^$/d" fich | wc
+   18  sed "/^*en*$/d" fich | wc
+   19  sed "/^.*en.*$/d" fich | wc
+   20  sed "/en/d" fich | wc
+   21  sed "/en/d" fich | sed "/el/d" | wc -l
+   22  sed "s/[[:alpha:]]*\b//g" fich
+   23  sed "s/^[[:alpha:]]*\b//g" fich
+   24  sed "s/a/ @" fich
+   25  sed "s/a/@" fich
+   26  man sed
+   27  sed "s/a/@/" fich
+   28  sed "s/a/@//g" fich
+   29  sed "s/a/@/g" fich
+   30  sed "s/España/Spain/g" fich
+   31  sed "s/[aeiou]/[AEIOU]/g" fich
+   32  sed "y/aeiou/AEIOU/" fich
+   33  sudo aptitude moo
+   34  sudo aptitude moo -v
+   35  sudo aptitude moo -v -v
+   36  sudo aptitude moo -v -v -v
+   37  sudo aptitude moo -v -v -v -v
+   38  sudo aptitude moo -v -v -v -v -v
+   39  sudo aptitude moo -v -v -v -v -v -v
+   40  sed "s/e" fich
+   41* sed "
+   42  sed "s/e//g" fich
+   43  sed "s/[aeiou]//g" fich
+   44  sed "s/[aeiouAEIOUáéíóúiÁÉÍÓÚ]//g" fich
+   45  sed "s/ //g" fich
+   46  nano
+   47  sudo chmod a111 script.sh
+   48  sudo chmod a+rwx script.sh
+   49  :/script.sh
+   50  ./script.sh
+   51  nano
+   52  ./vuelca_datos.sh
+   53  nano vuelva_datos.sh 
+   54  sudo ./vuelca_datos.sh
+   55* ./vuelca_datos
+   56  sudo ./vuelva_datos.sh
+   57  ./vuelva_datos.sh
+   58  nano vuelva_datos.sh 
+   59  sudo chmod a+rwx vuelva_datos.sh 
+   60  ./vuelva_datos.sh
+   61  nano
+   62  ./saludo.sh
+   63  sudo chmod a+111 saludo.sh 
+   64  sudo chmod a+rwx saludo.sh 
+   65  ./saludo.sh
+   66  nano
+   67  sudo chmod a+rwx mayor_que_cero.sh 
+   68  ./mayor_que_cero.sh 
+   69  ./mayor_que_cero.sh 17
+   70  ./mayor_que_cero.sh -45
+   71  nano mayor_que_cero.sh 
+   72  nano mayor_que_cero.sh 17
+   73  nano mayor_que_cero.sh
+   74  ./mayor_que_cero.sh 17
+   75  ./mayor_que_cero.sh -45
+   76  nano mayor_que_cero.sh 
+   77  ./mayor_que_cero.sh 17
+   78  ./mayor_que_cero.sh -45
+   79  history>>20.txt

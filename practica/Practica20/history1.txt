@@ -1,0 +1,42 @@
+1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  sudo aptitude install filezilla
+    6  wget http://www.unirioja.es/cu/jearansa/1112/ficheros/historia
+    7  grep "España" historia
+    8  grep "España" historia | wc
+    9  grep "España.*guerra" historia | wc
+   10  grep "guerra.*España" historia | wc
+   11  egrep "Francia|Italia" historia | wc
+   12  grep "España" historia | grep "guerra" | wc
+   13  grep -v "España" historia | grep "guerra" | wc
+   14  grep "\b...ía\b" historia | wc
+   15  grep [0-4] {4} historia | wc
+   16  grep [0-4] historia |grep "\b....\b" |  wc
+   17  grep [0-4] {4} historia
+   18  grep [0-4] historia |grep "\b....\b
+   19  grep [0-4] historia |grep "\b....\b"
+   20  grep [0-9]{4} historia | wc
+   21  grep "[0-9]{4}" historia | wc
+   22  egrep "[0-9]{4}" historia | wc
+   23  grep "^a" historia | wc
+   24  grep "s$" historia | wc
+   25  grep "^la" historia | wc
+   26  grep "as$" historia | wc
+   27  grep "^s" historia | grep "s$" | wc
+   28  egrep "^a|^A" historia | grep "s$|S$" | wc
+   29  egrep "^a|^A" historia | egrep "s$|S$" | wc
+   30  egrep "19[0-9]{2}" historia
+   31  egrep "19[0-9]{2}" historia | wc
+   32  egrep "[:alpha:]{15}\b" historia | wc
+   33  egrep "[a-zA-Z]{15}\b" historia | wc
+   34  egrep "[[:alpha:]]{15}\b" historia | wc
+   35  egrep "y" historia | wc -l
+   36  grep "y" historia | wc -l
+   37  grep "^y$" historia | wc -l
+   38  grep "\by\b" historia | wc -l
+   39  egrep "[[:alpha:]]{2}" historia | egrep "y" | wc
+   40  egrep "y.|.y" historia | wc
+   41  egrep "y[[:alpha:]]|[[:alpha:]]y" historia | wc
+   42  history > pract20

@@ -1,0 +1,16 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  ps
+    6  ps -s
+    7  ps u
+    8  kill -s 15 2155
+    9  ps u
+   10  kill -s 9 2248
+   11  ps u
+   12  history
+   13  ps u
+   14  kill -s 2263
+   15  kill -s 15 2263
+   16  history >> p18

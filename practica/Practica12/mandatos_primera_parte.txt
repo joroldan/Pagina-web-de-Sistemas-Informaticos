@@ -1,0 +1,17 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  help
+    6  cd/home/alumno
+    7  cd/ home/alumno
+    8  cd /home/alumno
+    9  ls
+   10  mkdir Datos_recuperados
+   11  ls
+   12  ls -l
+   13  d
+   14  sudo halt
+   15  halt
+   16  history
+   17  history >> mandatos

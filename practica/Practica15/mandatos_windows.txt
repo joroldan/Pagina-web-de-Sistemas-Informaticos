@@ -1,0 +1,17 @@
+﻿cd
+dir
+help dir
+dir /Q
+cd ..
+cd
+cd .
+cd
+cd ..
+tree
+tree Users
+set
+cd %HOMEPATH%
+set escritorio=C:\Users\joroldan\Desktop
+cd %escritorio%
+DOSKEY /h
+DOSKEY /h >> mandatos_windows_practica_15

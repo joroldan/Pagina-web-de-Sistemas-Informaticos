@@ -1,0 +1,94 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  pwd
+    6  mkdir practica16
+    7  ls
+    8  ls -l
+    9  cd practica16
+   10  mkir dir.uno dir2 dir_3
+   11  ls
+   12  mkir "dir.uno" "dir2" "dir_3"
+   13  mkdir "dir.uno" "dir2" "dir_3"
+   14  ls
+   15  rm dir_3
+   16  rm "dir_3"
+   17  rmdir dir_3
+   18  ls
+   19  cd dir.uno
+   20  nano
+   21  ls
+   22  cd ..
+   23  cd dir2
+   24  nano
+   25  ls
+   26  nano prueba1
+   27  nano prueba2
+   28  cp ../dir.uno/datos_personales datos_personales.copia
+   29  ls
+   30  nano datos_personales.copia 
+   31  cp datos_personales.copia .datos_personales
+   32  ls -a
+   33  cp -r /usr/games
+   34  cp -r /usr/games .
+   35  cd .
+   36  ls -l
+   37  cd games
+   38  ls -l
+   39  sol
+   40  rm sol
+   41  ls
+   42  ls -l /usr/games/
+   43  mv ../../dir.uno/datos_personales .
+   44  ls
+   45  ls ..
+   46  mv ../../dir.uno/datos_personales ..
+   47  ls ..
+   48  rm datos_personales 
+   49  ls
+   50  mv /usr/games/sol .
+   51  mv ../../dir.uno/ /home/alumno/Escritorio/
+   52  ms /home/alumno/Escritorio/dir.uno /home/alumno/Escritorio/mis_textos
+   53  mv /home/alumno/Escritorio/dir.uno /home/alumno/Escritorio/mis_textos
+   54  cd /home/alumno/Escritorio/
+   55  ln -s ../practica16/dir2/games/quadrapassel qualink
+   56  ls -l
+   57  sol
+   58  omnipresent sol
+   59  vocal
+   60  ln ../practica16/dir2/games/quadrapassel quafort
+   61  ls -l
+   62  ls -li
+   63  ls ../practica16/dir2/games/quadrapassel 
+   64  ls -li ../practica16/dir2/games/quadrapassel 
+   65  rm ../practica16/dir2/games/quadrapassel 
+   66  ln -s/media dispositivos
+   67  ln -s /media dispositivos
+   68  ls -lia /media
+   69  ls -lia dispositivos
+   70  ls -lia ./dispositivos
+   71  cd dispositivos
+   72  ls -lia
+   73  cd ..
+   74  rm dispositivos
+   75  ls
+   76  cd ..
+   77  pwd
+   78  ls
+   79  tar -cvf practica16.tar practica16
+   80  man tar
+   81  rm practica16
+   82  rm -r practica16 
+   83  gzip practica16.tar 
+   84  ls -l
+   85  gunzip practica16.tar.gz 
+   86  ls
+   87  gzip -9 practica16.tar 
+   88  ls
+   89  ls -l
+   90  bzip2 practica16.tar
+   91  gunzip practica16.tar.gz 
+   92  bzip2 practica16.tar 
+   93  ls -l
+   94  history >> p16

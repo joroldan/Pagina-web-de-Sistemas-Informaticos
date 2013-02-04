@@ -1,0 +1,32 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  help
+    6  cd/home/alumno
+    7  cd/ home/alumno
+    8  cd /home/alumno
+    9  ls
+   10  mkdir Datos_recuperados
+   11  ls
+   12  ls -l
+   13  d
+   14  sudo halt
+   15  halt
+   16  history
+   17  history >> mandatos
+   18  set
+   19  set|less
+   20  gedit variables_de_entorno
+   21  set >> variables_de_entorno
+   22  gedit variables_de_entorno
+   23  echo $path
+   24  echo $home
+   25  echo $user
+   26  echo $hostname
+   27  echo $HOME
+   28  echo $USER
+   29  echo $HOSTNAME
+   30  echo $PATH
+   31  ooffice variables_de_entorno
+   32  history >> mandatos_segunda_parte

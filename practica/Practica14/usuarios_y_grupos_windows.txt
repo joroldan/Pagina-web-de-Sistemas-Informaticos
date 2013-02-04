@@ -1,0 +1,39 @@
+﻿Cuentas de usuario de \\FILS2-19
+
+
+-------------------------------------------------------------------------------
+Alumno                   Invitado                 
+Se ha completado el comando correctamente.
+
+
+
+
+Alias para \\FILS2-19
+
+
+-------------------------------------------------------------------------------
+*Administradores
+*ConfigMgr Remote Control Users
+*Duplicadores
+*HelpLibraryUpdaters
+*IIS_IUSRS
+*Invitados
+*Lectores del registro de eventos
+*Operadores criptogr�ficos
+*Operadores de configuraci�n de red
+*Operadores de copia de seguridad
+*SQLServer2005DTSUser$ALUMNO-PC
+*SQLServer2005MSFTEUser$ALUMNO-PC$MSSQLSERVER
+*SQLServer2005MSSQLServerADHelperUser$ALUMNO-PC
+*SQLServer2005MSSQLUser$ALUMNO-PC$MSSQLSERVER
+*SQLServer2005NotificationServicesUser$ALUMNO-PC
+*SQLServer2005SQLAgentUser$ALUMNO-PC$MSSQLSERVER
+*SQLServer2005SQLBrowserUser$ALUMNO-PC
+*Usuarios
+*Usuarios avanzados
+*Usuarios COM distribuidos
+*Usuarios de escritorio remoto
+*Usuarios del depurador
+*Usuarios del monitor de sistema
+*Usuarios del registro de rendimiento
+Se ha completado el comando correctamente.

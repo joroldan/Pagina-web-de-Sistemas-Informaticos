@@ -1,0 +1,69 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  sudo aptitude install filezilla
+    6  man ps
+    7  ps
+    8  ps -e
+    9  ps aux
+   10  man ps
+   11  man top
+   12  top
+   13  top -u alumno
+   14  top
+   15  cd /proc
+   16  ls -l
+   17  cd 978
+   18  ls
+   19  ls -l
+   20  file limits
+   21  file status
+   22  sudo less limits 
+   23  sudo less status
+   24  sudo less limits 
+   25  cd ~
+   26  yes hola
+   27  ls -l /dev/null
+   28  yes adios > /dev/null
+   29  ls -l /dev/null
+   30  man sigkill
+   31  man SIGKILL
+   32  ls -l
+   33  yes que tal > /dev/null
+   34  yes otra vez > /dev/null &
+   35  help jobs
+   36  history
+   37  jobs
+   38  ps u
+   39  pstree
+   40  yes mensaje > /dev/null &
+   41  pstree -h
+   42  top u
+   43  top
+   44  jobs
+   45  kill -s 15 2257
+   46  jobs
+   47  yes mensaje2 > /dev/null
+   48  jobs
+   49  fg 2
+   50  jobs
+   51  bg 2
+   52  jobs
+   53  bg 2
+   54  kill -s 19 2261
+   55  jobs
+   56  yes hi &
+   57  yes hola > /dev/null &
+   58  pstree
+   59  top -u
+   60  top -u alumno
+   61  fg 1
+   62  fg 2
+   63  fg 3
+   64  fg 4
+   65  fg 5
+   66  jobs
+   67  sudo service cron start
+   68  sudo nano /etc/corntab
+   69  history >> prac18

@@ -1,0 +1,17 @@
+﻿mkdir practica16
+cd practica16
+mkdir dir.uno dir2 dir_3
+dir
+rd dir_3
+dir
+cd dir.uno
+edit
+cd ..
+cd dir2
+edit
+dir
+del prueba2
+copy ..\dir.uno\datospersonales datospersonales.copia
+dir
+move ..\dir.uno ..\..\Desktop
+DOSKEY /H > mandatos_windows_practica16

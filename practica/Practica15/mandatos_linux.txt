@@ -1,0 +1,56 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  pwd
+    6  ls -l
+    7  help cd
+    8  cd Escritorio
+    9  pwd
+   10  ls+
+   11  ls
+   12  ls -la
+   13  sudo apt-get install filazilla
+   14  sudo apt-get install filezilla
+   15  man -a
+   16  -a help
+   17  ls help
+   18  help ls
+   19  info ls
+   20  ls
+   21  ls -la
+   22  cd .
+   23  pwd
+   24  cd ..
+   25  ls -la
+   26  cd ..
+   27  cd..
+   28  cd ..
+   29  pwd
+   30  cd ..
+   31  pwd
+   32  cd ..;pwd;pwd
+   33  ls -la
+   34  mkdir hola
+   35  sudo ls -R
+   36  cd /home/alumno
+   37  cd Escritorio
+   38  pwd
+   39  cd /home/alumno/Escritorio
+   40  pwd
+   41  set | less
+   42  cd $HOME; pwd
+   43  export mi_escritorio="/home/alumno/Escritorio"
+   44  set | less
+   45  cd $mi_escritorio; pwd
+   46  cd ~; pwd
+   47  man mount
+   48  mkdir Carpeta_Windows
+   49  mount -t vboxsf Desktop Carpeta_Windows
+   50  sudo mount -t vboxsf Desktop Carpeta_Windows
+   51  cd Carpeta_Windows/
+   52  ls -la
+   54  cd ..
+   15  sudo umount Carpeta_Windows
+   16  ls -la Carpeta_Windows/
+   52  history >> p15

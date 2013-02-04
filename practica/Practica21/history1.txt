@@ -1,0 +1,28 @@
+1  sudo hostname pc-alumno
+        2  sudo gedit /etc/host
+        3  sudo gedit
+        4  clear
+        5  history
+        6  man ifconfig
+        7  ifconfig
+        8  ifconfig eth0 down
+        9  sudo ifconfig eth0 down
+  10  sudo ifconfig eth0 up
+  12  ifconfig
+  13  nslookup belenus.unirioja.es
+  14  nslookup google.com
+  15  less /etc/resolv.conf
+  16  less /etc/host.conf
+  17  nano /etc/hosts
+  18  sudo nano /etc/hosts
+  19  /etc/hosts
+  20  sudo nano /etc/hosts
+  21  nslookup www.google.com
+  24  sudo nano /etc/hosts
+  25  sudo ifconfig eth0 10.0.2.44
+  26  sudo ifconfig netmask 255.255.255.0
+  27  sudo ifconfig netmask 255.255.0.0
+  28  sudo ifconfig eth0 netmask 255.255.0.0
+  29  sudo ifconfig eth0 broadcast 10.0.2.255
+  30  man awk
+  31  history>>history1

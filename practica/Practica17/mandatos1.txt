@@ -1,0 +1,104 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  sudo fdisk -l
+    6  cd Escritorio; touch prueba
+    7  touch prueba
+    8  man touch
+    9  touch prueba
+   10  ls -l
+   11  file prueba
+   12  nano prueba
+   13  file prueba
+   14  wget -O index.htm http://belenus.unirioja.es/~joroldan
+   15  file index.hm
+   16  file index.htm
+   17  mv index.
+   18  file index
+   19  stat index
+   20  man stat
+   21  ls -li index
+   22  cd ..
+   23  ls -l
+   24  file Escritorio
+   25  stat Escritorio
+   26  man find
+   27  find /home/alumno/ -name index
+   28  sudo finde / -name gnomine
+   29  sudo find / -name gnomine
+   30  ln -s /usr/games/gnomine enl_debil_gnomine
+   31  pwd
+   32  cd Escritorio/
+   33  file enl_debil_gnomine
+   34  ln -s /usr/games/gnomine enl_debil_gnomine
+   35  file enl_debil_gnomine
+   36  sudo apt-get install Filezilla
+   37  sudo aptitude  install Filezilla
+   38  sudo aptitude  install filezilla
+   39  ls -l
+   40  stat enl_debil_gnomine 
+   41  cd /dev
+   42  ls -l | less
+   43  man chmod
+   44  cd /home/alumno/Escritorio/
+   45  nano mensaje
+   46  nano f1
+   47  cp f1 f2
+   48  cp f1 f3
+   49  ls
+   50  chmod o-rwx f1 f2 f3
+   51  ls -l
+   52  chmod ugo-rx f1
+   53  ls -l
+   54  less f1
+   55  chmod u+r f1
+   56  less f1
+   57  chmod u-w f1
+   58  nano f1
+   59  chmod ug+rx-w f1 f2
+   60  cdmod ug+rx-w o-rwx mensaje
+   61  chmod ug+rx-w o-rwx mensaje
+   62  chmod ug+rx-w mensaje; chmod o-rwx mensaje
+   63  chmod ug+rx,ug-w,o-rwx mensaje
+   64  chmod a-rwx mensaje
+   65  chmod ug-r mensaje 
+   66  chmod a-rwx,u+rw,g+x,o+rx mensaje 
+   67  mkdir dir1 dir2 dir3
+   68  cd dir1
+   69  touch fich11
+   70  cd ..
+   71  cd dir2
+   72  cd ..
+   73  cd dir2; touch fich22; cd..; cd dir3; touch fich33; cd.. 
+   74  cd ..
+   75  cd dir3
+   76  touch fich33
+   77  cd ..
+   78  cp mensaje dir3/
+   79  cd dir3
+   80  ls -lR
+   81  cd ..
+   82  chmod a-r dir1, a-x dir2, a-x dir3
+   83  chmod a-r dir1
+   84  chmod a-x dir2
+   85  chmod a-x dir3
+   86  ls -l
+   87  a-w+x dir2
+   88  chmod a-w+x dir2
+   89  ls-l
+   90  ls -l
+   91  ls dir1/
+   92  cd dir1
+   93  ls
+   94  less fich11
+   95  cd ../dir2
+   96  ls
+   97  nano fich22 
+   98  ls-l
+   99  ls -l
+  100  touch 1
+  101  rm fich22 
+  102  cd ..
+  103  ls dir3/
+  104  history >> pract17

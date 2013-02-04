@@ -1,0 +1,41 @@
+#horario TABLE{
+	border-style: solid;
+	border-width: 2px 2px 2px 2px;
+	border-color: Black;
+	border-spacing: 0px;
+	font-family: Calibri, Helvetica, Verdana, Geneva, Arial;
+}
+#horario TD{
+	padding: 10px 10px 10px 10px;
+	font-family: Calibri, Helvetica, Verdana, Geneva, Arial;
+	border-style: solid;
+	border-color: Black;
+	border-width: 2px 2px 2px 2px;
+}
+#horario tbody{
+	text-align: center;
+}
+#horario caption {
+	text-align: left;
+	font-size: larger;
+	font-weight: bolder;
+}
+th#th1{
+	background-color: Yellow;
+	background-repeat: repeat;
+	border: 2px solid Black;
+}
+span.asignatura{
+	color: Red;
+	font-weight: bold;
+}
+span.grupo{
+	color: Teal;
+	font-style: italic;
+}
+span.profesor{
+	color: Teal;
+}
+span.hora{
+	vertical-align: middle;
+}

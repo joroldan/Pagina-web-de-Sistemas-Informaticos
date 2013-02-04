@@ -1,0 +1,11 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  sudo aptitude install firefox
+    6  sudo aptitude update firefox
+    7  sudo add-apt-repository ppa:mozillateam/firefox-
+    8  man less
+    9  sudo aptitude install filezilla
+   10  sudo cat /etc/passwd /etc/group >> usuarios_y_grupos_linux
+   11  history >> mandatos_prectica_14

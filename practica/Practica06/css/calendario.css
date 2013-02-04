@@ -1,0 +1,37 @@
+#calendario TABLE{
+	border-style: solid solid solid solid;
+	border-color: Black;
+	border-width: 2px 2px 2px 2px;
+	border-spacing: 0px;
+	font-family: Calibri, Helvetica, Verdana, Geneva, Arial;
+}
+#calendario TD{
+	padding: 1px 10px 1px 10px;
+	font-family: Calibri, Helvetica, Verdana, Geneva, Arial;
+}
+#calendario tbody{
+	text-align: center;
+}
+#calendario caption {
+	text-align: center;
+	font-size: larger;
+	font-weight: bolder;
+	border-style: solid solid solid solid;
+	border-color: Black;
+	border-width: 2px 2px 2px 2px;
+}
+td.r{
+	background-color: red;
+}
+td.a{
+	background-color: Aqua;
+}
+td.b{
+	color: Fuchsia;
+}
+td.c{
+	border-style: solid solid solid solid;
+	border-style: solid;
+	border-color: Black;
+	border-width: 2px 2px 2px 2px;
+}

@@ -1,0 +1,36 @@
+    1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  awk ‘{print “Hola mundo”}’
+    6  awk '{print “Hola mundo”}'
+    7  awk '{print "Hola mundo"}'
+    8  who
+    9  who | awk '{print "El usuario " $1 " se ha logueado a la hora " S4}'
+   10  who | awk '{print "El usuario " $1 " se ha logueado a la hora " $4}'
+   11  less /etc/passwd | awk -F ":" '{print "El usuario " $1 " tiene como directorio origen " $6}'
+   12  less /etc/passwd |grep "/br*|/ba*|/bc*" $1 | awk -F ":" '{print "El usuario " $1 " tiene como directorio origen " $6}'
+   13  less /etc/passwd |grep "[rac]" | awk -F ":" '{print "El usuario " $1 " tiene como directorio origen " $6}'
+   14  less /etc/passwd |grep "^[rac]" | awk -F ":" '{print "El usuario " $1 " tiene como directorio origen " $6}'
+   15  ls -l
+   16  ls -l | awk '{print "El directorio " $6 " con permisos " $1 " y con " $2 " enlaces fuertes pertenece a: " $3}'
+   17  ls -l | awk '{print "El directorio " $8 " con permisos " $1 " y con " $2 " enlaces fuertes pertenece a: " $3}'
+   18  ls -l /etc | awk '{print "El directorio " $8 " con permisos " $1 " y con " $2 " enlaces fuertes pertenece a: " $3}'
+   19  nano vaca
+   20  chmod u+rwx go-w go+rx variables.sh
+   21  chmod u+rwx variables.sh
+   22  chmod go-w variables.sh
+   23  chmod go+rx variables.sh
+   24  ls -l variables.sh
+   25  ./variables.sh
+   26  ./variables.sh Hola sudovaca
+   27  ./variables.sh Hola gerifalte
+   28  nano variables.sh
+   29  ./variables.sh Hola gerifalte
+   30  ./condicional.sh
+   31  ./condicional.sh clase
+   32  sudo ./condicional.sh clase
+   33  chmod a+rwx condicional.sh
+   34  ./condicional.sh clase
+   35  ./condicional.sh clase
+   36  history >> history2

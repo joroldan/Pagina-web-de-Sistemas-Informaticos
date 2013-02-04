@@ -1,0 +1,38 @@
+﻿1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  sudo fdisk -l
+    6  cd Escritorio; touch prueba
+    7  touch prueba
+    8  man touch
+    9  touch prueba
+   10  ls -l
+   11  file prueba
+   12  nano prueba
+   13  file prueba
+   14  wget -O index.htm http://belenus.unirioja.es/~joroldan
+   15  file index.hm
+   16  file index.htm
+   17  mv index.
+   18  file index
+   19  stat index
+   20  man stat
+   21  ls -li index
+   22  cd ..
+   23  ls -l
+   24  file Escritorio
+   25  stat Escritorio
+   26  man find
+   27  find /home/alumno/ -name index
+   28  sudo finde / -name gnomine
+   29  sudo find / -name gnomine
+   30  less fich41
+   31  umask a-rwx
+   32  cd ~
+   33  touch fich43
+   34  ls -l
+   35  umask u+r
+   36  touch fich44
+   37  ls -l
+   38  history >> man17

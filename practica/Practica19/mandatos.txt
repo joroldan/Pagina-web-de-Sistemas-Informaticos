@@ -1,0 +1,71 @@
+    1  sudo hostname pc-alumno
+    2  sudo gedit /etc/host
+    3  sudo gedit
+    4  clear
+    5  sudo passwd alumno
+    6  grep joroldan
+    7  ls
+    8  cd Escritorio/
+    9  mkdir Prohibido
+   10  chmod a-rwx Prohibido
+   11  ls Prohibido/
+   12  ls -l Prohibido/>resultado
+   13  less resultado 
+   14  ls -l Prohibido/ 2>resultado
+   15  less resultado 
+   16  sudo aptitude istall filezilla
+   17  sudo aptitude moo
+   18  cat > ciudades
+   19  less ciudades
+   20  cat >> ciudades
+   21  less ciudades
+   22  echo "Murcia">>ciudades
+   23  less ciudades
+   24  ehco "El usuario activo es $USER"
+   25  echo "El usuario activo es $USER"
+   26  sort ciudades
+   27  sort -r ciudades 
+   28  sort ciudades > ciudades.ordenadas
+   29  cat /etc/group /etc/passwd > usuarios_y_grupos
+   30  grep "alumno" usuarios_y_grupos 
+   31  less /etc/protocols
+   32  grep "ip" /etc/protocols
+   33  grep "alumno
+   34  grep "alumno" /etc/*
+   35  grep "alumno" /etc/* > aparaciciones_alumno
+   36  wc usuarios_y_grupos 
+   37  man wc
+   38  cat /etc/passwd /etc/group | grep "alumno"
+   39  cat /etc/passwd /etc/group | grep "alumno" | wc
+   40  cat /etc/passwd /etc/group | grep "root" | sort -r
+   41  cat /etc/passwd /etc/group | grep "root" | sort -r >>
+   42  cat /etc/passwd /etc/group | grep "root" | sort -r > informacion_root
+   43  grep "mk" /usr/bin
+   44  ls -l /usr/bin/ | grep "mk"
+   45  ls -l /sbin/ | grep "mk"
+   46  ls -l /sbin/ & ls -l /usr/bin/ | grep "mk"
+   47  ls -l /usr/bin/ > f && ls -l /sbin/ >> f && grep "mk" f
+   48  less f
+   49  mkdir datos;touch cd/personal;echo "Jorge Roldan">>cd/personal; echo "Grado en matematicas" >> cd/personal
+   50  mkdir datos;touch datos/personal;echo "Jorge Roldan">>datos/personal; echo "Grado en matematicas" >> datos/personal
+   51  history | grep "grep" | wc
+   52  ls -l /home/alumno | grep "rwx"
+   53  cat > colores | sort
+   54  cat > colores; sort colores
+   55  wget http://www.unirioja.es/; grep "style" index.html
+   56  ps | grep "root" > procesos_root
+   57  ps | grep "alumno" > procesos_alumno
+   58  ps aux| grep "root" > procesos_root
+   59  ps aux| grep "alumno" > procesos_alumno
+   60  echo $PATH ; echo $SHELL
+   61  ecHo $PATH ; echo $SHELL
+   62  echo $PATH && echo $SHELL
+   63  ecHo $PATH && echo $SHELL
+   64  echo $PATH && ecHo $SHELL
+   65  echo $PATH1 && echo $SHELL
+   66  echo $PATH || echo $SHELL
+   67  ecHo $PATH || echo $SHELL
+   68  echo $PATH1 || echo $SHELL
+   69  echo $PATH1 || echo $SHELL1
+   70  ecHo $PATH1 || echo $SHELL1
+   71  history >> mandatos_practica_19
