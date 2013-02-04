@@ -1,0 +1,6 @@
+#contenido{
+     position: relative;
+     top: 0.75em;
+     border-radius: 1em; /*CSS3, no valida en CSS2, pero sí en CSS3*/
+     background-color: white;
+}

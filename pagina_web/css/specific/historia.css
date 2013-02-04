@@ -1,0 +1,42 @@
+/*Tabla de versiones*/
+div.center{
+     text-align: center;
+}
+div.center table {
+     margin: 0 auto;
+     text-align: left;
+}
+td{
+     border: solid Black;
+     border-bottom-width: 0.05em;
+     border-left-style: none;
+     border-right-style: none;
+     border-top-width: 0.05em;
+}
+th#titulo {
+	border: 0.05em solid Black;
+	font-style: oblique;
+	border-bottom-style: none;
+     border-left-style: none;
+     border-right-style: none;
+     border-top-width: 0.05em;
+     text-align: center;
+}
+td.cabecera {
+     border: solid Black;
+	font-style: oblique;
+	font-weight:bold;
+	border-bottom-width: 0.05em;
+     border-left-style: none;
+     border-right-style: none;
+     border-top-style: none;
+}
+table.versiones{
+     border: 0.05em solid Black;
+     border-spacing: 0;
+     width:30em;
+     text-align: right;
+}
+colgroup{
+      width:7.5em;
+}

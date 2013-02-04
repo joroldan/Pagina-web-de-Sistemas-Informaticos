@@ -1,0 +1,19 @@
+body{
+	background-image: url(img/fondo2.png);
+	background-color: #1C3343;
+	background-repeat: repeat-x;
+}
+#content{
+	background-color: #1C3343;
+	background-image: url(img/fondo1.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+#indice{
+     background-image: url(img/menu.png);
+     background-repeat: repeat-x;
+     border-radius: 0.5em;
+}
+#piedepagina{
+     background-image: url(img/pie.png);
+}

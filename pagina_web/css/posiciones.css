@@ -1,0 +1,52 @@
+body{
+    text-align:center;
+}
+#contenido{
+    overflow:hidden;
+}
+#content{
+     position: relative;
+     margin: auto;
+     width: 90%;
+     min-width: 62em;
+     top: -0.6em;
+     text-align:center;
+}
+#banner, #indice{
+     text-align: center;
+}
+#indice{
+     position: relative;
+     margin: auto;
+     width: 51.5em;
+     height: 30px;
+}
+#guion, #contenido{
+	padding: 0.6em 2em 0.6em 2em;
+	text-align: justify;
+}
+#piedepagina{
+	padding: 0.6em 0 0.6em 0;
+}
+#piedepagina{
+     position: relative;
+     height: 3em;
+     float: left;
+     width: 100%;
+     bottom: -2em;
+     clear: both;
+}
+#html{
+     position: relative;
+     left: 2em;
+     float: left;
+}
+#css{
+     position: relative;
+     right: 2em;
+     float: right;
+}
+textarea{
+    resize:none;
+}
+

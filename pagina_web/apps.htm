@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+		"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+          <meta name="keywords" content="Distribución Ubuntu. Características y propiedades">
+          <meta name="description" content="En esta página web se habla del sistema operativo Linux, en concreto de su distribución Ubuntu">
+          <meta name="Author" content="Jorge Roldán López">
+          <meta name="Date" content="4 de noviembre de 2011">
+          <meta name="robots" content="all">
+          <meta name="generator" content="Kod - kodapp.com">
+          <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/posiciones.css">
+          <link rel="stylesheet" type="text/css" href="css/fuentes.css">
+          <link rel="stylesheet" type="text/css" href="css/estilo1.css">
+          <link rel="stylesheet" type="text/css" href="css/specific/apps.css">
+          <link rel="stylesheet" type="text/css" href="css/fondos.css">
+          <link rel="stylesheet" type="text/css" href="css/menu.css">
+		  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27088728-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        <title>Ubuntu - Aplicaciones</title>
+    </head>
+    <body>
+      <div id="content">
+          <div id="banner">
+                <br><a name="arriba"><img src="content/banner.png" alt="Ubuntu"></a>
+                <br>&nbsp;
+          </div>
+          <div id="indice">
+                <ul id="navegacion">
+                    <li> <a href="index.htm">Inicio</a>                     </li>
+                    <li> <a href="historia.htm">Historia</a>                </li>
+                    <li> <a href="propiedades.htm">Propiedades</a>          </li>
+                    <li> <a href="interfaz.htm">Interfaz</a>                </li>
+                    <li> <a class="select" href="apps.htm">Aplicaciones</a> </li>
+                    <li> <a href="galeria.htm">Galería</a>                  </li>
+                    <li> <a href="enlaces.htm">Enlaces</a>                  </li>
+                    <li> <a href="acerca.htm">Acerca</a>                    </li>
+                </ul>
+          </div>
+          
+          <div id="guion">
+             <ul> <li> <a href="#apps">Aplicaciones</a>  </li>
+                  <li> <a href="#repos">Instalar</a>  </li>
+                  <li> <a href="#cs">C. Software</a>     </li>
+                  <li> <a href="#wine">WINE</a>          </li>
+            </ul>
+          </div>
+          
+          <div id="contenido">
+                <h1><a name="apps"> Aplicaciones de serie </a></h1>
+                <p>Ubuntu trae de serie una cantidad importante de aplicaciones, que va actualizando y cambiando con cada nueva versión. Algunas de las apps que vienen de serie son:</p>
+                <ul>
+                  <li><strong>Firefox</strong> como navegador web.
+                  <li><strong>Empathy</strong> como cliente de mensajería instantanea.
+                  <li><strong>Gwibber</strong> como cliente de redes sociales.
+                  <li><strong>Thunderbird</strong> como cliente de correo.
+                  <li><strong>Totem</strong> como reproductor multimedia.
+                  <li><strong>Banshee </strong>como reproductor de música.
+                  <li><strong>Shotwell</strong> como gestor y editor de fotografía.
+                  <li><strong>Transmission</strong> como cliente de torrents.
+                  <li><strong>Brasero</strong> como grabador de discos.
+                  <li><strong>Libre Office</strong> como suite ofimática.
+                  <li><strong>Gedit</strong> como editor de texto.
+                  <li><strong>Terminal</strong> como emulador de terminal-
+                </ul>
+                <p>Pero estas no son las únicas.</p> 
+                <p> No obstante podemos desinstalar e instalar nuevas apps a través de sus paquetes, agregando nuevos repositorios o a través del Centro de Software de Ubuntu.</p>
+                <hr>
+                <h1><a name="repos"> Agregar y actualizar aplicaciones </a></h1>
+                <p>Para instalar una nueva aplicación existen varios métodos. O bien descargar un paquete de la aplicación y ejecutarlo, o la otra opción es agragar un repositorio. Los repositorios tienen la ventaja de que más tarde esa aplicación se actualizará junto con el resto de aplicaciones. Por ejemplo el repositorio de la versión beta de Firefox es:</p>
+                <p><code> ppa:mozillateam/firefox-next </code></p>
+                <p> Este código tenemos dos opciones de agregarlo: </p>
+                <ul>
+                  <li><strong>Terminal</strong>: Copiar en terminal: <br><code>sudo add-apt-repository ppa:mozillateam/firefox-next </code> </li>
+                  <li><strong>Fuentes de software</strong>: Agregarlo al menú de preferencias del sistema: fuentes de software.             </li>
+                </ul>
+                <p> En los repositorios hay varias aplicaciones, para instalar una de las aplicaciones de un repositorio que tengamos podemos hacerlo desde la terminal escribiendo: <code>sudo apt-get install nombre_aplicacion</code> o bien <code>sudo aptitude install nombre_aplicacion</code>.
+                <hr>
+                <h1><a name="cs"> Centro de Software </a></h1>
+                <p>El Centro de Software Ubuntu fue la respuesta de Canonical a las quejas por la dificultad de instalar software. Este centro permite instalar, desinstalar y buscar nuevas aplicaciones de una forma intuitiva y sencilla ya que es todo por interfaz gráfica y cuenta con imágenes, buscador, zona de comentarios...</p>
+                <div class="img">  <a href="content/cs.png"> <img src="content/cs.png" alt="Centro de Software de Ubuntu 11.10"  ></a> </div>
+                <hr>
+                <h1><a name="wine"> WINE </a></h1>
+                <p>Para aquellos usuarios que vienen de Windows y no encuentran un software alternativo en Linux siempre pueden recurrir al uso de <abbr title="Wine Is Not an Emulator">WINE</abbr> que permite ejecutar bastantes programas pensados para Windows en Ubuntu y otras distribuciones de Linux.</p>
+                <div class="img">  <a href="content/wine.png"> <img src="content/wine.png" alt="Office 2007 en Ubuntu vía WINE"  ></a> </div>
+          </div>
+          <div id="piedepagina">
+              <div id="html"><a href="http://validator.w3.org/check?uri=referer"><img src="valid/html.png" alt="Valid HTML 4.01 Strict"></a></div>
+              <div id="css"><a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="valid/css.gif" alt="¡CSS Válido!"></a></div>
+              <a href="#arriba">Subir</a>
+              <p>
+              <address>
+                    Esta página ha sido diseñada por 
+                    <a href="mailto:jorge.roldanl@alum.unirioja.es">Jorge Roldán López</a>
+              </address> 
+         </div>
+      </div>
+    </body>
+</html>
