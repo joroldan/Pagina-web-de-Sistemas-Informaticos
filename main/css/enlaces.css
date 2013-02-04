@@ -1,0 +1,40 @@
+#indice a{
+	color: White;
+	text-decoration: none;
+}
+#indice li>a:link{
+	color: White;
+	text-decoration: none;
+}
+#indice li>a:hover{
+	background-color: Black;
+	color: Yellow;
+	text-transform: none;
+	text-decoration:underline;
+}
+#indice a {
+	border:none;
+}
+#indice li>a:visited{
+	color: White;
+	text-decoration: none;
+	font-style:italic;
+}
+#piedepagina a:link{
+	color: White;
+	text-decoration: none;
+}
+#piedepagina a:hover{
+	background-color: White;
+	border-style:solid;
+	border-color: black;
+	color: Gray;
+	font-style: normal;
+}
+#left a:hover, #right a:hover{
+    border: 0px none;
+    background-color: transparent;
+}
+body{
+	transition: display 2s;
+}

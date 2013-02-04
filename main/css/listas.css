@@ -1,0 +1,9 @@
+#indice ul ol li{
+	font-size: smaller;
+}
+#indice ul{
+	list-style-type: none;
+}
+#indice li>ul{
+	list-style-type: square;
+}

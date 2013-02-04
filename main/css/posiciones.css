@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+#content{
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    height: 100%;
+    min-height: 800px;
+    width: 90%;
+	min-width: 990px;
+}
+#cabecera{
+	position: relative;
+	top: -5px;
+	margin-left:auto;
+    margin-right:auto;
+	height: 120px;
+	width: 500px;
+}
+#indice{
+	position: absolute;
+	top: 130px;
+	left: 0%;
+	height: 80%;
+	width: 25%;
+	text-align: left;
+}
+#contenido{
+	position: absolute;
+	top: 130px;
+	left: 28%;
+	height: 80%;
+	width: 72%;
+}
+#piedepagina{
+	position: absolute;
+	top: 100%;
+    margin:auto;
+	height: 7%;
+	width: 100%;
+}
+#imagen{
+	float: right;
+	width: 25%;
+}
+#left{
+    position: relative;
+    float: left;
+}
+#right{
+    position: relative;
+    float: right;
+}
+#contenido, #piedepagina{
+	border: solid;
+}
+#contenido, #indice, #piedepagina, #imagen{
+	padding: 10px 10px 10px 10px;
+}

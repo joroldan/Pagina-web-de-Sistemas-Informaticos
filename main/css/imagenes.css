@@ -1,0 +1,9 @@
+img#mi_foto{
+	width: 100%;
+}
+#upbasic, #upso, #upweb, #upinternet, #downbasic, #downso, #downweb, #downinternet{
+	display:none;
+}
+img {
+	border:none;
+}

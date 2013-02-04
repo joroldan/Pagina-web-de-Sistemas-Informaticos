@@ -1,0 +1,20 @@
+body{
+	background-repeat: repeat;
+	background-image: url(fondos/t1.png);
+}
+#cabecera{
+	background-image: url(fondos/nube.png);
+	background-repeat: repeat-x;
+}
+#indice{
+	background-image: url(fondos/t3.png);
+	background-repeat: repeat;
+}
+#piedepagina{
+	background-image: url(fondos/metal.jpg);
+	background-repeat: repeat;
+}
+#contenido{
+	background-image: url(fondos/snow.jpg);
+	background-repeat: repeat;
+}
